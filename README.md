@@ -60,8 +60,6 @@ import (
 )
 
 func main() {
-
-func main() {
     // New way: Use Builder Pattern for clean initialization
     monigoInstance := monigo.NewBuilder().
         WithServiceName("data-api").

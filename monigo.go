@@ -106,6 +106,11 @@ func (m *Monigo) isAddrInUse(err error) bool {
 	return false
 }
 
+// GetRuningPort returns the running port
+func (m *Monigo) GetRuningPort() int {
+	return m.DashboardPort
+}
+
 // MonigoInstanceConstructor is the constructor for the Monigo struct
 func (m *Monigo) MonigoInstanceConstructor() error {
 

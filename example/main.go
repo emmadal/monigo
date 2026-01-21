@@ -13,7 +13,7 @@ func main() {
 	// New way: Use Builder Pattern
 	monigoInstance := monigo.NewBuilder().
 		WithServiceName("data-api").
-		WithPort(8082).
+		WithPort(8080).
 		WithRetentionPeriod("4d").
 		WithDataPointsSyncFrequency("5m").
 		Build()
